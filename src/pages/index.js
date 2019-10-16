@@ -10,6 +10,7 @@ const IndexPage = () => (
     <h1>Hanna Taylor</h1>
     <p>Under Construction</p>
     <Link to="/resume/">Go to Resume</Link>
+    <Link to="/typography/">Go to Typography</Link>
   </Layout>
 )
 
