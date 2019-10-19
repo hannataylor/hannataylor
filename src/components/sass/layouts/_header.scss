@@ -5,15 +5,20 @@ header {
         a {
             color: $white;
             &:hover {
-                color: $grey-7;
+                color: $grey-6;
                 background: transparent;
             }
+        }
+        .navbar-logo {
+            font-family: $serif;
+            font-weight: 800;
         }
         .navbar-end {
             font-size: .6em;
             .navbar-item {
                 background: transparent;
                 display: inline-flex;
+                color: $grey-6;
                 &:hover {
                     background: transparent;
                 }
@@ -33,5 +38,3 @@ header {
         }
     }
 }
-
-

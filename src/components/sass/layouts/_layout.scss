@@ -1,5 +1,5 @@
 .body {
-    background: $grey-2;
+    background: $grey-7;
     display: flex;
     min-height: 100vh;
     flex-direction: column;
@@ -7,6 +7,29 @@
         flex-grow: 1;
     }
 }
+
+.hero-body {
+    background: $grey-2;
+    padding: 3em 0;
+}
+
+.content.section:not(:last-child) {
+    margin-bottom: 0;
+}
+
+.section {
+    padding: 3em 0;
+}
+
+.section-1, .section-3 {
+    background: $grey-7;
+}
+
+.section-2 {
+    background: $grey-5;
+}
+
+
 
 @media screen and (min-width: 1408px) {
     .container {

@@ -6,7 +6,7 @@ const Header = ({ siteTitle }) => (
   <header>
     <nav class="navbar container" role="navigation" aria-label="main navigation">
       <div class="navbar-start">
-        <Link to="/" className="link navbar-item">{siteTitle}</Link>
+        <Link to="/" className="link navbar-item navbar-logo">{siteTitle}</Link>
       </div>
       <div class="navbar-end">
         <Link to="/about" className="link navbar-item">About</Link>
