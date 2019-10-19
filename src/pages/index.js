@@ -9,8 +9,12 @@ const IndexPage = () => (
     <SEO title="Home" />
     <section class="hero">
       <div class="hero-body level has-text-centered">
-          <h1 class="title is-1 h1-fluid"><span class="subtitle">Hi, I'm Hanna Taylor</span></h1>
-          <h1 class="title is-1 h1-fluid">Web/UX/UI/Graphic Designer</h1>
+          <div class="container">
+            <h1 class="title is-1 h1-fluid">
+              <span class="subtitle">Hi. I'm Hanna Taylor.</span>
+              I'm a Web/UX/UI/Graphic Designer based in New York City with 3+ years of experience.
+            </h1>
+          </div>
       </div>
     </section>
     <section class="content section section-1">

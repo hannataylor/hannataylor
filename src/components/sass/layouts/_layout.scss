@@ -15,13 +15,17 @@
         min-height: 94vh;
         flex-direction: column;
         justify-content: center;
+        .container {
+            max-width: 55%;
+        }
         .title {
-            font-size: 3.5em;
+            font-family: $special-font;
             .subtitle {
                 font-size: 1rem;
                 display: block;
             }
         }
+        
     }
     
 }
