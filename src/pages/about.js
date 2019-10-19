@@ -4,12 +4,12 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const Contact = () => (
+const About = () => (
   <Layout>
-    <SEO title="Contact" />
-    <h1 class="title is-1 h1-fluid">Contact</h1>
+    <SEO title="About" />
+    <h1 class="title is-1 h1-fluid">About</h1>
     <p>Work in Progress</p>
   </Layout>
 )
 
-export default Contact
+export default About

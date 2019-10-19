@@ -4,22 +4,15 @@ import React from "react"
 
 const Header = ({ siteTitle }) => (
   <header>
-    <nav class="navbar level" role="navigation" aria-label="main navigation">
-      <p class="level-item has-text-centered">
-        <Link to="/" class="link is-info">Home</Link>
-      </p>
-      <p class="level-item has-text-centered">
-      <Link to="/typography" class="link is-info">Typography</Link>
-      </p>
-      <p class="level-item has-text-centered">
-        <Link to="/" class="link is-info">{siteTitle}</Link>
-      </p>
-      <p class="level-item has-text-centered">
-      <Link to="/resume" class="link is-info">Resume</Link>
-      </p>
-      <p class="level-item has-text-centered">
-      <Link to="/contact" class="link is-info">Contact</Link>
-      </p>
+    <nav class="navbar container" role="navigation" aria-label="main navigation">
+      <div class="navbar-start">
+        <Link to="/" className="link navbar-item">{siteTitle}</Link>
+      </div>
+      <div class="navbar-end">
+        <Link to="/about" className="link navbar-item">About</Link>
+        <Link to="/resume" className="link navbar-item">Resume</Link>
+        <Link to="/contact" className="link navbar-item">Contact</Link>
+      </div>
     </nav>
   </header>
 )

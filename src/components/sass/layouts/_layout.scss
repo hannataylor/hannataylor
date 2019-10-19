@@ -1,11 +1,22 @@
-// Flexbox Sticky Footer
-
 .body {
+    background: $grey-2;
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+    .body-container {
+        flex-grow: 1;
+    }
 }
-  
-.body-container {
-    flex: 1;
+
+@media screen and (min-width: 1408px) {
+    .container {
+        max-width: 90%;
+    }
+}
+
+
+@media screen and (max-width: $tablet) {
+    .body-container {
+        padding: 1em;
+    }
 }

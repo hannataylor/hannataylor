@@ -1,3 +1,5 @@
+const autoprefixer = require('autoprefixer');
+
 module.exports = {
   siteMetadata: {
     title: `Hanna Taylor`,
@@ -5,8 +7,22 @@ module.exports = {
     author: `@hanna__taylor`,
   },
   plugins: [
+
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-postcss`,
+    {
+      resolve: `gatsby-plugin-postcss`,
+      options: {
+        postCssPlugins: [
+          autoprefixer({
+            browsers: ['last 2 versions', 'not ie 10'],
+            grid: true,
+          })
+        ],
+        precision: 8
+      }
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {

@@ -1,7 +1,37 @@
-header .navbar {
-    background: $black;
+header {
+    background: $grey-2;
+    .navbar {
+        background: transparent;
+        a {
+            color: $white;
+            &:hover {
+                color: $grey-7;
+                background: transparent;
+            }
+        }
+        .navbar-end {
+            font-size: .6em;
+            .navbar-item {
+                background: transparent;
+                display: inline-flex;
+                &:hover {
+                    background: transparent;
+                }
+            }
+        }
+    }
 }
 
-header .navbar a {
-    color: $white;
+@media screen and (max-width: $tablet) {
+    header .navbar {
+        text-align: center;
+        a {
+            font-size: 1.5em;
+        }
+        .navbar-end {
+            font-size: .75em;
+        }
+    }
 }
+
+

@@ -7,13 +7,26 @@ $max_font: 24px;
 $mod_1: 1.2; // mobile
 $mod_2: 1.5; // desktop
 
+$hero_fullscreen: 100vh;
+
 // Colors
-$black: #212121;
+$black: #000;
 $white: #fff;
 
+$grey-1: hsl(0, 0%, 7%);
+$grey-2: hsl(0, 0%, 14%);
+$grey-3: hsl(0, 0%, 21%);
+$grey-4: hsl(0, 0%, 29%);
+$grey-5: hsl(0, 0%, 48%);
+$grey-6: hsl(0, 0%, 71%);
+$grey-7: hsl(0, 0%, 86%);
+
+
+
+
 // Fonts
-$serif: "Playfair Display";
-$sans-serif: "Lato";
 $system-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 $system-font-monospace: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
 
+$serif: "Arimo", $system-font, serif;
+$sans-serif: "Open Sans", $system-font, sans-serif;
