@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 const Resume = () => (
   <Layout>
     <SEO title="Resume" />
-    <h1 class="title is-1 h1-fluid">Resume</h1>
+    <h1 className="title is-1 h1-fluid">Resume</h1>
     <p>Work in Progress</p>
   </Layout>
 )
