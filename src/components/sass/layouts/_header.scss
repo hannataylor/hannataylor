@@ -4,6 +4,8 @@ header {
         background: transparent;
         a {
             color: $white;
+            text-transform: uppercase;
+            letter-spacing: .2em;
             &:hover {
                 color: $grey-6;
                 background: transparent;

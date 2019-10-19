@@ -3,7 +3,7 @@ const autoprefixer = require('autoprefixer');
 module.exports = {
   siteMetadata: {
     title: `Hanna Taylor`,
-    description: `Personal Website`,
+    description: `Hanna Taylor's Personal Website`,
     author: `@hanna__taylor`,
   },
   plugins: [
@@ -16,7 +16,7 @@ module.exports = {
       options: {
         postCssPlugins: [
           autoprefixer({
-            browsers: ['last 2 versions', 'not ie 10'],
+            browserlist: ['last 2 versions', 'not ie 10'],
             grid: true,
           })
         ],
