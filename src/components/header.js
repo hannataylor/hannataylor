@@ -4,11 +4,11 @@ import React from "react"
 
 const Header = ({ siteTitle }) => (
   <header>
-    <nav class="navbar container" role="navigation" aria-label="main navigation">
-      <div class="navbar-start">
+    <nav className="navbar container" role="navigation" aria-label="main navigation">
+      <div className="navbar-brand">
         <Link to="/" className="link navbar-item navbar-logo">{ siteTitle }</Link>
       </div>
-      <div class="navbar-end">
+      <div className="navbar-start">
         <Link to="/about" className="link navbar-item">About</Link>
         <Link to="/resume" className="link navbar-item">Resume</Link>
         <Link to="/contact" className="link navbar-item">Contact</Link>

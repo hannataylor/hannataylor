@@ -1,25 +1,31 @@
 header {
-    background: $grey-2;
     .navbar {
-        background: transparent;
+        position: fixed;
+        background: $grey-2;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100vh;
+        width: 15%;
+        margin: 0;
+        padding: 0;
         a {
             color: $white;
             text-transform: uppercase;
-            letter-spacing: .2em;
+            letter-spacing: .1em;
             font-family: $sans-serif-1;
             &:hover {
                 color: $grey-6;
                 background: transparent;
             }
         }
-        .navbar-logo {
+        .navbar-brand {
             font-weight: 700;
         }
-        .navbar-end {
+        .navbar-start {
             font-size: .6em;
+            flex-direction: column;
             .navbar-item {
                 background: transparent;
-                display: inline-flex;
                 color: $grey-6;
                 &:hover {
                     background: transparent;

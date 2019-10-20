@@ -1,20 +1,24 @@
 .body {
-    background: $white;
+    background: $grey-2;
     display: flex;
     min-height: 100vh;
     flex-direction: column;
     .body-container {
         flex-grow: 1;
+        .center-container {
+            max-width: 70%;
+            padding: 5em 1.5em;
+        }
     }
 }
 
+
+
 .hero {
-    .hero-body.level {
+    .hero-body {
         background: $grey-2;
-        padding: 3em 0;
-        min-height: 94vh;
+        min-height: 100vh;
         flex-direction: column;
-        justify-content: center;
         .container {
             max-width: 55%;
         }
@@ -30,9 +34,15 @@
     
 }
 
-.content.section:not(:last-child) {
-    margin-bottom: 0;
+.content {
+    h1 {
+        color: white;
+    }
+    .section:not(:last-child) {
+        margin-bottom: 0;
+    }
 }
+
 
 .section {
     padding: 3em 0;
@@ -41,18 +51,6 @@
     }
     &-2 {
         background: $grey-5;
-    }
-}
-
-
-
-
-
-
-
-@media screen and (min-width: 1408px) {
-    .container {
-        max-width: 90%;
     }
 }
 

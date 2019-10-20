@@ -4,10 +4,10 @@ module.exports = {
   siteMetadata: {
     title: `Hanna Taylor`,
     description: `Hanna Taylor's Personal Website`,
-    author: `@hanna__taylor`,
+    author: ``,
   },
   plugins: [
-
+    `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-postcss`,

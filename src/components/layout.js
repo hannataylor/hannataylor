@@ -8,6 +8,8 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
+import { Helmet } from "react-helmet"
+
 
 import Header from "./header"
 import Footer from "./footer"
@@ -26,10 +28,19 @@ const Layout = ({ children }) => {
 
   return (
     <>
+
+      <Helmet>
+      <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+      </Helmet>
+
       <div className="body">
         <Header siteTitle={data.site.siteMetadata.title} />
         <div className="body-container">
-          <main>{children}</main>
+          <main>
+            <div className="content container center-container">
+              {children}
+            </div>
+          </main>
         </div>
         <Footer />
       </div>
