@@ -1,37 +1,47 @@
 import React from "react"
-// import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Home" keywords={[`Hanna Taylor`, `UX Designer`, `Web Designer`]} />
     <section className="hero">
-      <div className="hero-body level">
-          <div className="container level">
+      <div className="hero-body section">
             <h1 className="title is-1 h1-fluid">
-              <span className="subtitle">Hi. I'm Hanna Taylor.</span>
+              Hi, I'm Hanna Taylor.
+            </h1>
+            <h1 className="subtitle is-1 h1-fluid">
               I'm a Web/UX/UI/Graphic Designer based in New York City with 3+ years of experience.
             </h1>
-          </div>
       </div>
     </section>
-    {/* <section className="content section section-1">
-      <div className="level container">
-        <h2 className="is-1 h2-fluid">Section 1</h2>
-      </div>
+    <section className="section" id="about">
+        <h2 className="is-2 h2-fluid">About</h2>
+        <p>Content Here</p>
+        <p>Content Here</p>
+        <p>Content Here</p>
+        <p>Content Here</p>
+      
     </section>
-    <section className="content section section-2">
-      <div className="level container">
-        <h2 className="is-1 h2-fluid">Section 2</h2>
-      </div>
+    <section className="section" id="resume">
+        <h2 className="is-2 h2-fluid" >Resume</h2>
+        <p>Content Here</p>
+        <p>Content Here</p>
+        <p>Content Here</p>
+        <p>Content Here</p>
+        <p>Content Here</p>
+
     </section>
-    <section className="content section section-3">
-      <div className="level container">
-        <h2 className="is-2 h2-fluid">Section 3</h2>
-      </div>
-    </section> */}
+    <section className="section" id="contact">
+        <h2 className="is-2 h2-fluid">Contact</h2>
+        <p>Content Here</p>
+        <p>Content Here</p>
+        <p>Content Here</p>
+        <p>Content Here</p>
+        <p>Content Here</p>
+        <p>Content Here</p>
+    </section>
   </Layout>
 )
 

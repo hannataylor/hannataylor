@@ -2,10 +2,10 @@
 
 html {
   @include fluid-type($min_width, $max_width, $min_font, $max_font);
+  height: 100%;
 }
 
 body {
-  background-color: $black;
   margin: 0;
-  color: $white;
+  height: 100%;
 }

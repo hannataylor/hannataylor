@@ -9,9 +9,9 @@ const Header = ({ siteTitle }) => (
         <Link to="/" className="link navbar-item navbar-logo">{ siteTitle }</Link>
       </div>
       <div className="navbar-start">
-        <Link to="/about" className="link navbar-item">About</Link>
-        <Link to="/resume" className="link navbar-item">Resume</Link>
-        <Link to="/contact" className="link navbar-item">Contact</Link>
+        <Link to="/#about" className="link navbar-item">About</Link>
+        <Link to="/#resume" className="link navbar-item">Resume</Link>
+        <Link to="/#contact" className="link navbar-item">Contact</Link>
       </div>
     </nav>
   </header>

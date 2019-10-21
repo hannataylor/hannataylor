@@ -7,6 +7,7 @@ import SEO from "../components/seo"
 const Typography = () => (
   <Layout>
     <SEO title="Typography" />
+    <section className="section">
         <h1 className="title is-1 h1-fluid">This is an h1</h1>
         <h2 className="title is-2 h2-fluid">This is an h2</h2>
         <h3 className="title is-3 h3-fluid">This is an h3</h3>
@@ -19,7 +20,7 @@ const Typography = () => (
         <button className="button is-primary">This is a primary button</button>
         <caption>This is a caption</caption>
         <code>This is code</code>
-        <div className="content">
+        <div>
             <ul>
                 <li>This</li>
                 <li>is</li>
@@ -28,7 +29,7 @@ const Typography = () => (
                 <li>list</li>
             </ul>
         </div>
-        <div className="content">
+        <div>
             <ol className="is-lower-alpha">
                 <li>This</li>
                 <li>is</li>
@@ -41,6 +42,7 @@ const Typography = () => (
             <img src="https://bulma.io/images/placeholders/128x128.png" alt="placeholder"/>
         </figure>
         <Link to="/">Go back to the homepage</Link>
+    </section>
   </Layout>
 )
 

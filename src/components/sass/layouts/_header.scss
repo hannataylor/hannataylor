@@ -1,48 +1,60 @@
-header {
-    .navbar {
-        position: fixed;
-        background: $grey-2;
+.navbar {
+    position: fixed;
+    background: $grey-2;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    width: 0;
+    margin-right: $sidebar;
+    padding: 0;
+    a {
+        color: $white;
+        text-transform: uppercase;
+        letter-spacing: .1em;
+        font-family: $sans-serif-1;
+        &:hover {
+            color: $grey-6;
+            background: transparent;
+        }
+    }
+    .navbar-brand {
+        font-weight: 700;
+    }
+    .navbar-start {
+        font-size: .6em;
         flex-direction: column;
-        justify-content: space-between;
-        height: 100vh;
-        width: 15%;
-        margin: 0;
-        padding: 0;
-        a {
-            color: $white;
-            text-transform: uppercase;
-            letter-spacing: .1em;
-            font-family: $sans-serif-1;
+        .navbar-item {
+            background: transparent;
+            color: $grey-6;
             &:hover {
-                color: $grey-6;
                 background: transparent;
-            }
-        }
-        .navbar-brand {
-            font-weight: 700;
-        }
-        .navbar-start {
-            font-size: .6em;
-            flex-direction: column;
-            .navbar-item {
-                background: transparent;
-                color: $grey-6;
-                &:hover {
-                    background: transparent;
-                }
             }
         }
     }
 }
 
+
 @media screen and (max-width: $tablet) {
-    header .navbar {
-        text-align: center;
-        a {
-            font-size: 1.5em;
-        }
-        .navbar-end {
-            font-size: .75em;
+    header {
+        .navbar {
+            display: flex;
+            justify-content: space-evenly;
+            width: 100%;
+            height: $sidebar;
+            margin: 0;
+            .navbar-brand {
+                justify-content: center;
+                font-size: 1.5em;
+            }
+            .navbar-start {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+                .navbar-item {
+                    display: inline-flex;
+                    font-size: 1.5em;
+                }
+            }
         }
     }
 }

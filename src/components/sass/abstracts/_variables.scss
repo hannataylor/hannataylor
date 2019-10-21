@@ -7,7 +7,9 @@ $max_font: 24px;
 $mod_1: 1.2; // mobile
 $mod_2: 1.5; // desktop
 
-$hero_fullscreen: 100vh;
+$sidebar: 15%;
+$content: calc(100% - #{$sidebar}*2);
+
 
 // Colors
 $black: #000;
