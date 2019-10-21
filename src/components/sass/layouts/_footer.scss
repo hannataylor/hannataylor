@@ -6,7 +6,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-end;
-    background: $grey-2;
+    background: $dark-grey;
     color: $white;
     height: 100vh;
     width: 0;
@@ -33,7 +33,7 @@
                 }
                 &:hover {
                     path {
-                        fill: $grey-6;
+                        fill: $light-grey;
                     }
                 }
             }

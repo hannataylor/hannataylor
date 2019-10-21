@@ -8,9 +8,9 @@ const Typography = () => (
   <Layout>
     <SEO title="Typography" />
     <section className="section">
-        <h1 className="title is-1 h1-fluid">This is an h1</h1>
-        <h2 className="title is-2 h2-fluid">This is an h2</h2>
-        <h3 className="title is-3 h3-fluid">This is an h3</h3>
+        <h1 className="title h1-fluid">This is an h1</h1>
+        <h2 className="title h2-fluid">This is an h2</h2>
+        <h3 className="title h3-fluid">This is an h3</h3>
         <h4 className="title is-4">This is an h4</h4>
         <h5 className="title is-5">This is an h5</h5>
         <h6 className="title is-6">This is an h5</h6>

@@ -1,6 +1,7 @@
 .navbar {
     position: fixed;
-    background: $grey-2;
+    background: $dark-grey;
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 100vh;
@@ -13,7 +14,7 @@
         letter-spacing: .1em;
         font-family: $system-font;
         &:hover {
-            color: $grey-6;
+            color: $light-grey;
             background: transparent;
         }
     }
@@ -21,10 +22,10 @@
         font-weight: 700;
     }
     .navbar-end {
-        font-size: .75em;
         flex-direction: column;
         .navbar-item {
             background: transparent;
+            font-size: .6em;
             &:hover {
                 background: transparent;
             }
@@ -52,7 +53,7 @@
                 align-items: baseline;
                 .navbar-item {
                     display: inline-flex;
-                    font-size: 1.5em;
+                    font-size: .75em;
                 }
             }
         }

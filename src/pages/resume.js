@@ -8,7 +8,7 @@ const Resume = () => (
   <Layout>
     <SEO title="Resume" />
     <section className="section">
-      <h1 className="title is-1 h1-fluid">Resume</h1>
+      <h1 className="title h1-fluid">Resume</h1>
       <p>Work in Progress</p>
     </section>
   </Layout>
