@@ -8,7 +8,10 @@ $mod_1: 1.2; // mobile
 $mod_2: 1.5; // desktop
 
 $sidebar: 15%;
+$sidebar-mobile: 7.5%;
 $content: calc(100% - #{$sidebar}*2);
+
+
 
 
 // Colors
