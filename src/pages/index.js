@@ -9,38 +9,41 @@ const IndexPage = () => (
     <section className="hero">
       <div className="hero-body section">
             <h1 className="title h1-fluid">
-              Hi, I'm Hanna Taylor.
+              Hanna Taylor
             </h1>
             <h1 className="subtitle h1-fluid">
-              I'm a Web/UX/UI/Graphic Designer based in New York City with 3+ years of experience.
+              Web/UX/UI/Graphic Designer
             </h1>
       </div>
     </section>
     <section className="section" id="about">
-        <h2 className="is-2 h2-fluid">About</h2>
-        <p>Content Here</p>
-        <p>Content Here</p>
-        <p>Content Here</p>
-        <p>Content Here</p>
+        <h2 className="h2-fluid">About</h2>
+        <ul>
+          <li><span role="img" aria-label="map pin emoji">📍</span>Based in NYC</li>
+          <li><span role="img" aria-label="girl on laptop emoji">👩🏻‍💻</span>Web Designer for Partnerships at Booking.com</li>
+          <li><span role="img" aria-label="brain emoji">🧠</span>Dev Bootcamp Grad '16</li>
+        </ul>
       
     </section>
     <section className="section" id="resume">
-        <h2 className="is-2 h2-fluid" >Resume</h2>
-        <p>Content Here</p>
-        <p>Content Here</p>
-        <p>Content Here</p>
-        <p>Content Here</p>
-        <p>Content Here</p>
-
+        <h2 className="h2-fluid" >Resume</h2>
+        <p>Work in Progress</p>
+        <p>Meanwhile, find me on
+        <a href="https://www.linkedin.com/in/hannataylor" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin"></i>LinkedIn</a></p>
     </section>
-    <section className="section" id="contact">
-        <h2 className="is-2 h2-fluid">Contact</h2>
-        <p>Content Here</p>
-        <p>Content Here</p>
-        <p>Content Here</p>
-        <p>Content Here</p>
-        <p>Content Here</p>
-        <p>Content Here</p>
+    <section className="section">
+        <h2 className="h2-fluid">Contact</h2>
+        <ul>
+          <li>
+            <a href="https://www.linkedin.com/in/hannataylor" target="_blank" rel="noopener noreferrer"><span className="icon"><i className="fab fa-linkedin-in"></i></span>Connect on LinkedIn</a>
+          </li>
+          <li>
+            <a href="mailto:hanna.taylor@icloud.com" target="_blank" rel="noopener noreferrer"><span className="icon"><i className="far fa-envelope"></i></span>Email Me</a>
+          </li>
+          <li id="contact">
+            <a href="sms:+1301-712-6539" target="_blank" rel="noopener noreferrer"><span className="icon"><i className="fab fa-whatsapp"></i></span>Text Me</a>
+          </li>
+        </ul>
     </section>
   </Layout>
 )
