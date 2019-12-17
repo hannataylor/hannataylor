@@ -31,17 +31,11 @@ const IndexPage = () => (
         <p>Meanwhile, find me on
         <a href="https://www.linkedin.com/in/hannataylor" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin"></i>LinkedIn</a></p>
     </section>
-    <section className="section">
+    <section className="section" id="contact">
         <h2 className="h2-fluid">Contact</h2>
         <ul>
           <li>
             <a href="https://www.linkedin.com/in/hannataylor" target="_blank" rel="noopener noreferrer"><span className="icon"><i className="fab fa-linkedin-in"></i></span>Connect on LinkedIn</a>
-          </li>
-          <li>
-            <a href="mailto:hanna.taylor@icloud.com" target="_blank" rel="noopener noreferrer"><span className="icon"><i className="far fa-envelope"></i></span>Email Me</a>
-          </li>
-          <li id="contact">
-            <a href="sms:+1301-712-6539" target="_blank" rel="noopener noreferrer"><span className="icon"><i className="fab fa-whatsapp"></i></span>Text Me</a>
           </li>
         </ul>
     </section>
