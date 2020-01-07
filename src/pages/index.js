@@ -20,16 +20,21 @@ const IndexPage = () => (
         <h2 className="h2-fluid">About</h2>
         <ul>
           <li><span role="img" aria-label="map pin emoji">📍</span>Based in NYC</li>
-          <li><span role="img" aria-label="girl on laptop emoji">👩🏻‍💻</span>Web Designer for Partnerships at Booking.com</li>
-          <li><span role="img" aria-label="brain emoji">🧠</span>Dev Bootcamp Grad '16</li>
+          <li><span role="img" aria-label="girl on laptop emoji">👩🏻‍💻</span>Senior Design Lead for Partnerships at <a href="https://www.klook.com/" target="_blank" rel="noopener noreferrer">Klook</a></li>
+          <li><span role="img" aria-label="brain emoji">🧠</span><a href="https://www.coursereport.com/schools/dev-bootcamp" target="_blank" rel="noopener noreferrer">Dev Bootcamp</a> - Full Stack Web Development Immersive - 2016</li>
+          <li><span role="img" aria-label="books emoji">📚</span>Bachelor of Science - Major in Business, Minor in Psychology - 2013</li>
+          <li><span role="img" aria-label="world map emoji">🗺</span>Traveled to 34 countries (so far)</li>
         </ul>
       
     </section>
     <section className="section" id="resume">
-        <h2 className="h2-fluid" >Resume</h2>
-        <p>Work in Progress</p>
-        <p>Meanwhile, find me on
-        <a href="https://www.linkedin.com/in/hannataylor" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin"></i>LinkedIn</a></p>
+        <h2 className="h2-fluid">Resume</h2>
+        <h3 className="h3-fluid"><a href="https://www.klook.com/" target="_blank" rel="noopener noreferrer">Klook</a></h3>
+        <p>Senior Design Lead, Partnerships and Affiliates</p>
+        <p className="resume-dates">January 2020 - Present</p>
+        <h3 className="h3-fluid"><a href="https://www.booking.com/" target="_blank" rel="noopener noreferrer">Booking.com</a></h3>
+        <p>Web Designer, Strategic Partnerships</p>
+        <p className="resume-dates">September 2016 - January 2020</p>
     </section>
     <section className="section" id="contact">
         <h2 className="h2-fluid">Contact</h2>
