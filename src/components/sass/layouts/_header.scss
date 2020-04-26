@@ -1,6 +1,6 @@
 .navbar {
     position: fixed;
-    background: $dark-grey;
+    background: var(--bg-color);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -9,12 +9,12 @@
     margin-right: $sidebar;
     padding: 0;
     a {
-        color: $white;
+        color: var(--font-color);
         text-transform: uppercase;
         letter-spacing: .1em;
         font-family: $system-font;
         &:hover {
-            color: $light-grey;
+            color: var(--hover-color);
             background: transparent;
         }
     }

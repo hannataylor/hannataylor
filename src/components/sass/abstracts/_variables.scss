@@ -12,24 +12,31 @@ $sidebar-mobile: 7.5%;
 $content: calc(100% - #{$sidebar}*2);
 
 
-
-
 // Colors
-$black: #000;
-$white: #fff;
+$light-hover-color: #666;
+$light-font-color: #333;
+$light-bg-color: #fff;
 
-$dark-grey: #1e1e1e;
-$medium-grey: #252526;
-$light-grey: #c5c5c5;
+$dark-hover-color: #c5c5c5;
+$dark-font-color: #fff;
+$dark-bg-color: #1e1e1e;
 
-
-
-
+// Light Mode
+:root {
+    --hover-color: #{$light-hover-color};
+    --font-color: #{$light-font-color};
+    --bg-color: #{$light-bg-color};
+}
+  
+//   Dark Mode
+@media (prefers-color-scheme: dark) {
+    :root {
+        --hover-color: #{$dark-hover-color};
+        --font-color: #{$dark-font-color};
+        --bg-color: #{$dark-bg-color};
+    }
+}
 
 // Fonts
 $system-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 $system-font-monospace: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
-
-$sans-serif-1: "Yantramanav", $system-font, serif;
-$sans-serif-2: "Open Sans", $system-font, sans-serif;
-$special-font: "Playfair Display", $system-font, serif;

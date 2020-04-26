@@ -1,5 +1,5 @@
 .body {
-    background: $dark-grey;
+    background: var(--bg-color);
     display: flex;
     min-height: 100vh;
 }
@@ -16,11 +16,11 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: $white;
+    color: var(--font-color);
     a {
-        color: white;
+        color: var(--font-color);
         &:hover {
-            color: $light-grey;
+            color: var(--hover-color);
         }
     }
 }
