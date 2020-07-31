@@ -3,8 +3,9 @@ const autoprefixer = require('autoprefixer');
 module.exports = {
   siteMetadata: {
     title: `Hanna Taylor`,
-    description: `Hanna Taylor's Personal Website`,
-    author: ``,
+    siteUrl: 'https://hanna-taylor.com',
+    description: `Hanna Taylor's personal website: A digital business card, resume and portfolio`,
+    author: `Hanna Taylor`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

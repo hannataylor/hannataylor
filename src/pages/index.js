@@ -19,11 +19,11 @@ const IndexPage = () => (
     <section className="section" id="about">
         <h2 className="h2-fluid">About</h2>
         <ul>
-          <li><span role="img" aria-label="map pin emoji">📍</span>Based in NYC</li>
-          <li><span role="img" aria-label="girl on laptop emoji">👩🏻‍💻</span>Senior Design Lead for Partnerships at Klook</li>
-          <li><span role="img" aria-label="brain emoji">🧠</span><a href="https://www.coursereport.com/schools/dev-bootcamp" target="_blank" rel="noopener noreferrer">Dev Bootcamp</a> - Full Stack Web Development Immersive - 2016</li>
-          <li><span role="img" aria-label="books emoji">📚</span>Bachelor of Science - Major in Business, Minor in Psychology - 2013</li>
-          <li><span role="img" aria-label="world map emoji">🗺</span>Traveled to 34 countries (so far)</li>
+          <li><span role="img" aria-label="Location (map pin emoji)">📍</span>Based in NYC</li>
+          <li><span role="img" aria-label="Current Role (woman using laptop emoji">👩🏻‍💻</span>Senior Design Lead for Partnerships at Klook</li>
+          <li><span role="img" aria-label="Coding Education (brain emoji)">🧠</span>Dev Bootcamp - Full Stack Web Development Immersive - 2016</li>
+          <li><span role="img" aria-label="Higher Education (stack of books emoji)">📚</span>Bachelor of Science - Major in Business, Minor in Psychology - 2013</li>
+          <li><span role="img" aria-label="Fun Fact (map emoji)">🗺</span>Traveled to 34 countries (so far)</li>
         </ul>
       
     </section>
