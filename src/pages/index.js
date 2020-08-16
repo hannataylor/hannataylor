@@ -31,10 +31,28 @@ const IndexPage = () => (
         <h2 className="h2-fluid">Resume</h2>
         <h3 className="h3-fluid">Klook</h3>
         <h4 className="h4-fluid">Senior Design Lead, Partnerships and Affiliates</h4>
-        <p className="resume-dates">January 2020 - Present</p>
+        <p className="dates">January 2020 - Present</p>
+
         <h3 className="h3-fluid">Booking.com</h3>
         <h4 className="h4-fluid">Web Designer, Strategic Partnerships</h4>
-        <p className="resume-dates">September 2016 - January 2020</p>
+        <p className="dates">September 2016 - January 2020</p>
+    </section>
+    <section className="section" id="projects">
+        <h2 className="h2-fluid">Projects</h2>
+        <h3 className="h3-fluid"><a href="petplantguide.com" target="_blank" rel="noreferrer">PetPlantGuide.com</a> <span className="badge">Under Construction</span></h3>
+        
+        <h4 className="h4-fluid">A resource for finding pet friendly plants</h4>
+        <p className="dates">August 2020</p>
+
+
+        <h3 className="h3-fluid"><a href="https://simple-site-template.now.sh/about" target="_blank" rel="noreferrer">Simple Gatsby Boilerplate</a></h3>
+        <h4 className="h4-fluid">A simple responsive boilerplate template utilizing Gatsby</h4>
+        <p className="dates">January 2020</p>
+
+        <h3 className="h3-fluid"><a href="https://hannataylor.github.io/musicfestival/" target="_blank" rel="noreferrer">Lauterbrunnen Music Festival</a></h3>
+        <h4 className="h4-fluid">A mock music festival website</h4>
+        <p className="dates">July 2016</p>
+
     </section>
     <section className="section" id="contact">
         <h2 className="h2-fluid">Contact</h2>

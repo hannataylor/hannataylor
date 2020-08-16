@@ -25,6 +25,10 @@ main {
     }
 }
 
+.dates {
+    font-size: .8em;
+}
+
 #about {
     ul {
         padding: 1em 0;
@@ -47,15 +51,31 @@ main {
         margin-top: .5em;
     }
 
-    .resume-dates {
-        font-size: .8em;
-    }
-
 }
 
 #contact {
     .icon {
         margin-right: .25em;
+    }
+}
+
+#projects {
+    h3 {
+        margin-top: .5em;
+    }
+    .badge {
+        background: var(--hover-color);
+        color: var(--bg-color);
+        padding: 8px;
+        border-radius: 8px;
+        font-size: 11px;
+        width: auto;
+        text-align: center;
+        margin-left: 1em;
+        vertical-align: middle;
+    }
+    a {
+        font-weight: 600;
     }
 }
 
