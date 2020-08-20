@@ -13,10 +13,12 @@ const Header = ({ siteTitle }) => (
         <div className="navbar-brand is-hidden-tablet">
           <Link to="/#top" className="link navbar-item">HT</Link>
         </div>
-        <Link to="/#about" className="link navbar-item">About</Link>
-        <Link to="/#resume" className="link navbar-item">Resume</Link>
-        <Link to="/#projects" className="link navbar-item">Projects</Link>
-        <Link to="/#contact" className="link navbar-item">Contact</Link>
+        <div className="navbar-links">
+          <Link to="/#about" className="link navbar-item">About</Link>
+          <Link to="/#resume" className="link navbar-item">Resume</Link>
+          <Link to="/#projects" className="link navbar-item">Projects</Link>
+          <Link to="/#contact" className="link navbar-item">Contact</Link>
+        </div>
       </div>
     </nav>
   </header>

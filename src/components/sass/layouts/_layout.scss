@@ -63,19 +63,12 @@ main {
     h3 {
         margin-top: .5em;
     }
-    .badge {
-        background: var(--hover-color);
-        color: var(--bg-color);
-        padding: 8px;
-        border-radius: 8px;
-        font-size: 11px;
-        width: auto;
-        text-align: center;
-        margin-left: 1em;
-        vertical-align: middle;
-    }
     a {
         font-weight: 600;
+    }
+    .construction {
+        font-size: .5em;
+        margin-left: 1em;
     }
 }
 
@@ -91,5 +84,9 @@ main {
             height: auto;
             padding: 4.5rem 1.5rem;
         }
+    }
+    #projects .construction {
+     display: block;
+     margin: 0;
     }
 }
