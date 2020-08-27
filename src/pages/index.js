@@ -39,9 +39,9 @@ const IndexPage = () => (
     </section>
     <section className="section" id="projects">
         <h2 className="h2-fluid">Projects</h2>
-        <h3 className="h3-fluid"><a href="petplantguide.com" target="_blank" rel="noreferrer">PetPlantGuide.com</a> <span className="construction">(Under Construction)</span></h3>
+        <h3 className="h3-fluid"><a href="https://petplantguide.com" target="_blank" rel="noreferrer">PetPlantGuide.com</a> <span className="construction">(Under Construction)</span></h3>
         
-        <h4 className="h4-fluid">A resource for finding pet friendly plants</h4>
+        <h4 className="h4-fluid">A resource for finding pet friendly plants that utilizes the Amazon Associates affiliate program.</h4>
         <p className="dates">August 2020</p>
 
 
