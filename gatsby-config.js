@@ -8,16 +8,18 @@ module.exports = {
     author: `Hanna Taylor`,
   },
   plugins: [
-    `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-sass`,
-    `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-postcss`,
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         trackingId: "UA-81193011-1",
+        head: true,
       },
     },
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sass`,
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-postcss`,
+    
     {
       resolve: `gatsby-plugin-postcss`,
       options: {
